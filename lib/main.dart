@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:ngdemo4/pages/button_edge.dart';
+import 'package:ngdemo4/pages/gesture_page.dart';
+import 'package:ngdemo4/pages/login_page.dart';
+import 'package:ngdemo4/pages/textField_page.dart';
 
 import 'pages/home_page.dart';
 
@@ -18,9 +22,9 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
-        
+
       ),
-      home: HomePage(),
+      home: LoginPage(),
     );
   }
 }
