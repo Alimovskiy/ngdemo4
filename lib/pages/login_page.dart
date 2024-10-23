@@ -10,8 +10,7 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Container(
+    return Container(
         color: Colors.grey,
         child: Center(
           child: Column(
@@ -32,7 +31,7 @@ class _LoginPageState extends State<LoginPage> {
             ],
           ),
         ),
-      ),
-    );
+      );
+
   }
 }
